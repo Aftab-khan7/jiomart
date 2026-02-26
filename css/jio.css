@@ -1,0 +1,117 @@
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.header{
+    background-color: #0078ad;
+    display: flex;
+    padding: 18px;
+    position: sticky;
+    justify-content: center;
+
+}
+.jio-head{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.jiomart-logo{
+        padding: 3px 40px;
+
+}
+.header-tab{
+    padding: 0px 15px 0px 0px;
+}
+.tab-button{
+   display: flex;
+    border-radius: 23px;
+    padding: 5px 7px;
+    background-color: #8cc5da;
+    color: rgb(2, 37, 2);
+    font-weight: 700;
+
+}
+
+
+.jio-tab{
+    font-size: 1.2rem;
+    padding: 5px 44px;
+    margin: auto;
+
+}
+
+.active{
+  background-color: white;
+    color: rgb(2, 37, 2);
+    border-radius: 23px;
+    padding: 6px 70px;
+    font-weight: 700;
+    margin: auto;
+
+
+}
+
+.jio-con{
+    display: flex;
+}
+
+
+.jio-search{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #0c5273;
+    border-radius: 23px;
+    padding: 12px;
+
+}
+
+.jio-search input{
+  background-color: #0c5273;
+    border: none;
+    font-size: 1rem;
+    padding: 0 195px 0 10px;
+
+}
+
+.jio-search input::placeholder{
+    color: white;
+
+}
+
+
+.search-icon{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 10px;
+
+}
+
+
+.jio-icon i{
+    color: white;
+    font-size: 1.3rem;
+    
+}
+.jio-cart{
+    padding: 11px 18px 11px 60px;
+}
+
+.jio-signinicon{
+    display: flex;
+    padding: 11px;
+}
+
+.jio-signin p{
+    padding: 0px 9px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}

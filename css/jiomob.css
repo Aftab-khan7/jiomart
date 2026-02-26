@@ -1,0 +1,82 @@
+@media (max-width:768px) {
+    .header{
+        display: block;
+        padding: 2px 4px;
+    }
+    .jiomart-logo{
+        display: none;
+    }
+
+    .header-tab {
+    /* padding: 0px; */
+
+
+}
+    .tab-button {
+        padding: 5px 9px;
+        margin: 7px;
+    }
+
+
+    .search-icon {
+    padding: 0 4px;
+
+    }
+
+    .jio-con {
+    margin: 0px 14px 10px 14px;
+    }
+
+
+    .jio-search input {    
+    padding: 0px 22px 0px 0px;
+
+    }
+    .jio-signin p {
+        display: none;
+    }
+
+
+.jio-cart {
+    padding: 11px 16px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+/*   *************   1024  ******************************************************   */
+
+@media (max-width:1024px) {
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jio-con {
+    padding: 16px 0px 0px 0px;
+}
+
+.jio-head{
+    flex-direction: row-reverse;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
